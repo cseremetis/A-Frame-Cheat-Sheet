@@ -18,6 +18,7 @@ A-Frame is a javascript Virtual Reality library built on top of [Three JS](https
 release has not yet been completed (Most current version is 0.8.0). Before starting with A-Frame it is necessary to create a web scaffold
 with the following layout (or equivalent):
 
+```
 MyWebsite
 |
 |--index.html
@@ -26,6 +27,7 @@ MyWebsite
 | |--script.js
 |--images
   |--assets
+```
 
 Include the url to the A-Frame Library at the <b>Head</b> of your index.html file in the form of a script tag:
 
@@ -51,14 +53,14 @@ Once the A-Frame Library is included, you may add more extensions <b>beneath it<
 ## Common Objects/Tags
 
 * Most Common Primitives
-	* <tt><a-box></a-box></tt>
-	* <tt><a-sphere></a-sphere></tt>
-	* <tt><a-sky></a-sky></tt>
-	* <tt><a-plane></a-plane></tt>
-	* <tt><a-cylinder></a-cylinder></tt>
-	* <tt><a-torus></a-torus></tt>
+	* `<a-box></a-box>`
+	* `<a-sphere></a-sphere>`
+	* `<a-sky></a-sky>`
+	* `<a-plane></a-plane>`
+	* `<a-cylinder></a-cylinder>`
+	* `<a-torus></a-torus>`
 * Entities
-	* <tt><a-entity></a-entity></tt>
+	* `<a-entity></a-entity>`
 	* Essentially wrappers/divs for A-Frame components
 	* Used to apply animations
 	* Used for gblocks
