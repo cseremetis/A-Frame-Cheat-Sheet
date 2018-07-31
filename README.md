@@ -1,4 +1,4 @@
-# A Frame
+# A Frame (Cheat-Sheet)
 
 This is a helpful library of resources for Upperline students on their A-Frame adventures! This file is broken down into the following categories:
 
@@ -78,7 +78,7 @@ Once the A-Frame Library is included, you may add more extensions <b>beneath it<
 ## Animations
 
 * [Documentation](https://aframe.io/docs/0.8.0/core/animations.html#sidebar)
-* include by inserting an <tt><a-animation></a-animation></tt> tag
+* include by inserting an `<a-animation></a-animation>` tag
 * Attributes
 	* attribute
 		* rotation-rotates object (default)
