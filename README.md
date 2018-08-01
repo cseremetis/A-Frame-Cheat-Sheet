@@ -33,6 +33,9 @@ Include the url to the A-Frame Library at the <b>Head</b> of your index.html fil
 
 <tt><script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script></tt>
 
+Include the A-Frame Extras Library underneath to add extensions:
+<tt><script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.2/dist/aframe-extras.min.js"></script></tt>
+
 Once the A-Frame Library is included, you may add more extensions <b>beneath it</b> still within the Head.
 
 ## Documentation
