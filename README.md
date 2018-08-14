@@ -100,22 +100,22 @@ visit [Google Poly](https://poly.google.com) or [Clara.io](https://clara.io)
 There are two ways to insert gblocks into your A-Frame scene:
 
 1. ### Embedded URLs
-	a. Visit Google Poly or Clara.io and find a gblock you enjoy
-	b. Insert an entity with the following format: `<a-entity block="url"></a-entity>`, where the "url" is the
+	* Visit Google Poly or Clara.io and find a gblock you enjoy
+	* Insert an entity with the following format: `<a-entity block="url"></a-entity>`, where the "url" is the
 	url of the block in Google Poly/Clara.io
 
 2. ### Downloading and Uploading
-	a. Visit Google Poly or Clara.io and find a gblock you enjoy
-	b. Download the gblock by clicking Download -> OBJ File
-	c. Open the corresponding .zip folder and upload the .obj and .mtl files into your project directory
-	d. Add two sets of `<a-asset-item>` tags with the following format: 
+	* Visit Google Poly or Clara.io and find a gblock you enjoy
+	* Download the gblock by clicking Download -> OBJ File
+	* Open the corresponding .zip folder and upload the .obj and .mtl files into your project directory
+	* Add two sets of `<a-asset-item>` tags with the following format: 
 
 	```
 	<a-asset-item id="id" src="link_to_file.obj"></a-entity>
 	<a-asset-item id="id" src="link_to_file.obj"></a-entity>
 	```
 
-	e. Create an a-object-model with an 'src' and 'mtl' attributes that refer to the .obj and .mtl assets respectively
+	* Create an a-object-model with an 'src' and 'mtl' attributes that refer to the .obj and .mtl assets respectively
 
 ## DOM Manipulation
 
