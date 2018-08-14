@@ -108,11 +108,11 @@ There are two ways to insert gblocks into your A-Frame scene:
 	* Visit Google Poly or Clara.io and find a gblock you enjoy
 	* Download the gblock by clicking Download -> OBJ File
 	* Open the corresponding .zip folder and upload the .obj and .mtl files into your project directory
-	* Add two sets of `<a-asset-item>` tags with the following format: 
+	* Add two sets of `<a-assets-item>` tags with the following format: 
 
 	```
-	<a-asset-item id="id" src="link_to_file.obj"></a-entity>
-	<a-asset-item id="id" src="link_to_file.obj"></a-entity>
+	<a-assets-item id="id" src="link_to_file.obj"></a-assets-item>
+	<a-assets-item id="id" src="link_to_file.obj"></a-assets-item>
 	```
 
 	* Create an a-object-model with an 'src' and 'mtl' attributes that refer to the .obj and .mtl assets respectively
